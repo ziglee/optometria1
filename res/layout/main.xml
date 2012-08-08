@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    android:gravity="center">
+
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+		    android:orientation="vertical"
+		    android:gravity="right|center_vertical">
+		    	
+		    <TextView
+		        android:id="@+id/primeira"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="2mm"
+		        android:gravity="right|center_vertical"
+		        android:text="PAN"
+		        android:textColor="#0F0"
+		        android:textSize="2.75mm"
+		        android:textStyle="bold" />
+		    
+		    <TextView
+		        android:id="@+id/primeiroNum"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="1mm"
+		        android:gravity="right|center_vertical"
+		        android:text="123+"
+		        android:textColor="#0F0"
+		        android:textSize="2mm" />
+	    </LinearLayout>
+	
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+		    android:orientation="vertical"
+		    android:gravity="left|center_vertical">
+		    
+		    <TextView
+		        android:id="@+id/segunda"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="2mm"
+		        android:gravity="left|center_vertical"
+		        android:text="ELA"
+		        android:textColor="#F00"
+		        android:textSize="2.75mm"
+		        android:textStyle="bold" />
+		    
+		    <TextView
+		        android:id="@+id/segundoNum"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="1mm"
+		        android:gravity="left|center_vertical"
+		        android:text="+456"
+		        android:textColor="#F00"
+		        android:textSize="2mm" />
+	    </LinearLayout>
+	
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+	    <Button
+		    android:id="@+id/instrucoes"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Ajuda" />
+	    
+		<Button
+		    android:id="@+id/proxima"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Próxima" />
+
+		<EditText
+		    android:id="@+id/palavra"
+		    android:hint="digite aqui"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"/>
+		
+		<Button
+		    android:id="@+id/enviar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Enviar" />
+	</LinearLayout>
+</LinearLayout>
